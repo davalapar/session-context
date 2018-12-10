@@ -17,7 +17,7 @@ const App = () => (
 );
 ```
 
-```
+```js
 class Header extends React.Component {
   componentDidMount() {
     const { updateSession } = this.props;
