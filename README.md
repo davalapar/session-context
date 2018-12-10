@@ -57,3 +57,7 @@ const App = () => (
   </SessionProvider>
 );
 ```
+
+## license
+
+MIT | @davalapar
