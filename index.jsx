@@ -11,6 +11,11 @@ export class SessionProvider extends React.Component {
     this.setState = this.setState.bind(this);
   }
 
+  componentDidMount() {
+    const { defaults } = this.props;
+    this.setState(defaults);
+  }
+
   render() {
     const { children } = this.props;
     return (
@@ -24,10 +29,15 @@ export class SessionProvider extends React.Component {
 }
 
 SessionProvider.propTypes = {
+  defaults: PropTypes.object,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,
+};
+
+SessionProvider.defaultProps = {
+  defaults: {},
 };
 
 export const withSession = ChildComponent => props => (
