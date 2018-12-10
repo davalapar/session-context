@@ -1,11 +1,11 @@
 # session-context
 Session state using React.Context.
 
-#### intro
+## intro
 
 This module simplifies shit like you've never seen before.
 
-#### basics
+## basics
 
 ```js
 import { SessionProvider } from 'session-context';
@@ -44,7 +44,7 @@ Header.propTypes = {
 export default withSession(Header);
 ```
 
-#### using `defaults` props for session
+## using `defaults` props for session
 
 - useful when you're loading a session state from `window.__STATE__` and the like
 
