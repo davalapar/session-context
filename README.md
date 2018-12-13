@@ -1,10 +1,6 @@
 # session-context
 Session state using React.Context.
 
-## intro
-
-This module simplifies shit like you've never seen before.
-
 ## basics
 
 ```js

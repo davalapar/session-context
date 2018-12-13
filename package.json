@@ -1,0 +1,9 @@
+{
+  "name": "session-context",
+  "version": "1.0.0",
+  "description": "React 16.x session context wrapper.",
+  "main": "index.jsx",
+  "repository": "git@github.com:davalapar/session-context.git",
+  "author": "davalapar <davalapar@gmail.com>",
+  "license": "MIT"
+}
